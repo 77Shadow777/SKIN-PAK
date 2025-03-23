@@ -1,7 +1,7 @@
 #!/data/user/0/com.termux/files/usr/bin/bash
 
 banner() {
-toilet "$(figlet "LEOSENVIP")" -f term --gay  | pv -qL 3000
+toilet "$(figlet "SHADOW")" -f term --gay  | pv -qL 3000
 }
 
 
