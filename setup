@@ -10,18 +10,18 @@ LBLUE='\033[1;36m'
 
 # BANNER
 banner() {
-toilet "$(figlet "LEOSENVIP")" -f term --gay  | pv -qL 3000
-toilet "  TELEGRAM CHANNEL LEOSENVIPSTORE  " -f term -F border --gay  | pv -qL 3000
+toilet "$(figlet "SHADOW")" -f term --gay  | pv -qL 3000
 }
+
 
 clear
 Coloring
 banner
 sleep 0.2
 
-if [ -f $HOME/LEOSENVIP/skin ]; then
-chmod +x $HOME/LEOSENVIP/skin
-mv $HOME/LEOSENVIP/skin $PREFIX/bin
+if [ -f $HOME/SHADOW/skin ]; then
+chmod +x $HOME/SHADOW/skin
+mv $HOME/SHADOW/skin $PREFIX/bin
 fi
 
 function redirect {
@@ -41,7 +41,7 @@ toilet "   TOOL INSTALL DONE   " -f term -F border --gay  | pv -qL 3000
     printf "\r%d.%d%% complete - est %d:%0.2d remaining\e[K" $(( $count*100/$total )) $(( ($count*1000/$total)%10)) $(( $estremain/60 )) $(( $estremain%60 ))
   done
   printf "\n"
-if [ -f $HOME/LEOSENVIP/menuskin ]; then
+if [ -f $HOME/SHADOW/menuskin ]; then
 chmod +x setup
 chmod +x menuskin
 chmod +x pakskin
